@@ -16,7 +16,7 @@
  .section_heading{
     max-width: 827px;
     text-align: center;
-     /*margin: 0 auto; */ /* ! moja hobe   */
+     margin: 0 auto; 
  }
  .section_heading h2{
     font-size: 35px;
@@ -146,4 +146,44 @@ nav .menu a{
     font-weight: bold;
     color: #474747;
 }
+
+#skills{
+    padding-top: 130px;
+}
+
+#skills .skills_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#skills .skills_container .skills_box{
+    display: flex;
+    gap: 24px;
+}
+
+.skills_box .skill_card{
+    padding: 30px;
+    max-width: 267px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #0000008f;
+}
+
+.skill_card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill_card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill_card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
 
