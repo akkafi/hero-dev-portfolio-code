@@ -13,6 +13,23 @@
     font-weight: 900;
  }
 
+ .section_heading{
+    max-width: 827px;
+    text-align: center;
+     /*margin: 0 auto; */ /* ! moja hobe   */
+ }
+ .section_heading h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+ }
+
+ .section_heading p{
+    font-size: 18px;
+    color:  #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+ }
  .btn{
     background-color: #FD6E0A;
     border: none;
@@ -99,3 +116,34 @@ nav .menu a{
     max-width: 584px;
     vertical-align: middle;
 }
+
+#about{
+    padding-top: 130px;
+}
+
+#about .about_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+#about .about_container .about_info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_info .info_card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about_info .info_card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+
