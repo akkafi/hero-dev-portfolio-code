@@ -105,7 +105,7 @@ nav .menu a {
 }
 
 #banner .banner_content h1 {
-    font-size: 85px;
+    font-size: 65px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #181818;
@@ -193,7 +193,7 @@ nav .menu a {
     color: #757575;
 }
 
-#resume .resume_container{
+#resume .resume_container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -203,29 +203,29 @@ nav .menu a {
 
 }
 
-.resume_container .section_title{
+.resume_container .section_title {
     font-size: 30px;
     color: #474747;
     margin-bottom: 30px;
 }
 
-.resume_card{
+.resume_card {
     max-width: 511px;
     margin-right: 40px;
 }
 
-.resume_container hr{
+.resume_container hr {
     margin: 30px 0;
 }
 
-.resume_card .card_title{
+.resume_card .card_title {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #474747;
 }
 
-.resume_card .card_info{
+.resume_card .card_info {
     font-size: 20px;
     font-weight: 600;
     color: #757575;
@@ -233,19 +233,19 @@ nav .menu a {
 
 }
 
-.resume_card .card_text{
+.resume_card .card_text {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
 }
 
-footer{
+footer {
     margin-top: 130px;
     background-color: #FFF8F3;
     padding: 130px 0;
 }
 
-footer .footer_container{
+footer .footer_container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -258,13 +258,13 @@ footer .footer_container{
 
 } */
 
-.footer_container h2{
+.footer_container h2 {
     font-size: 35px;
     color: #181818;
     margin-bottom: 20px;
 }
 
-.footer_container .social p{
+.footer_container .social p {
     color: #474747;
     line-height: 18px;
     font-size: 16px;
@@ -272,11 +272,12 @@ footer .footer_container{
     width: 562px;
 }
 
-.footer_container .icons a{
+.footer_container .icons a {
     margin-right: 24px;
 }
 
-.footer_container form input[type="text"] , textarea{
+.footer_container form input[type="text"],
+textarea {
     width: 461px;
     padding: 18px 31px;
     margin-bottom: 24px;
@@ -286,6 +287,131 @@ footer .footer_container{
 }
 
 
+.hide {
+    display: none !important;
+}
 
+@media screen and (max-width: 576px) {
+    header {
+        background: url(../images/header_bg.png), #FFF8F3;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+
+    .btn_group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    nav {
+        gap: 20px;
+        align-items: center;
+    }
+
+    nav .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #banner {
+        margin: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #banner .banner_content h1 {
+        font-size: 37px;
+    }
+
+    #about .about_container {
+        padding: 20px;
+    }
+
+    #banner .banner_image img {
+        width: 100%;
+        /* margin: 0 0 0 -160px; */
+    }
+
+    #about .about_container .about_info {
+        gap: 40px;
+    }
+
+    #about .about_container,
+    footer .footer_container {
+        width: 85%;
+    }
+
+    #skills .skills_container {
+        width: 92%;
+    }
+
+    .skills_box .skill_card {
+        max-width: 100%;
+    }
+
+    .section_heading h2 {
+    font-size: 30px;
+}
+
+#resume .resume_container {
+    margin-top: 60px;
+}
+
+.resume_card .card_title {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 11px 18px;
+    font-size: 18px;
+}
+
+.resume_card {
+    margin-right: 10px;
+}
+
+footer .footer_container {
+    gap: 80px;
+}
+
+footer {
+    margin-top: 73px;
+    background-color: #FFF8F3;
+    padding: 73px 0;
+}
+
+.footer_container .social p {
+    margin-bottom: 30px;
+    width: 307px;
+}
+
+.footer_container form input[type="text"],
+textarea {
+    width: 92%;
+    padding: 16px 11px;
+}
+
+.footer_container h2 {
+    font-size: 30px;
+}
+
+#skills,
+#about,
+#resume {
+    padding-top: 60px;
+}
+
+#skills .skills_container .skills_box,
+#about .about_container .about_info,
+footer .footer_container,
+#resume .resume_container,
+nav,
+#banner {
+    flex-direction: column;
+}
+}
 
 
